@@ -1,0 +1,17 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "nodemon -e js,html --watch server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": { 
+    "express": "^4.17.1", 
+    "instagram-web-api": "^2.2.2", 
+    "nodemon": "^2.0.7", 
+    "tough-cookie-filestore2": "^1.0.0"
+  }
+}
